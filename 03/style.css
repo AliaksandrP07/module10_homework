@@ -1,0 +1,75 @@
+.container {
+    width: 1300px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.input {
+    padding: 1px;
+    outline: white;
+    width: 330px;
+    height: 40px;
+    border: none;
+    background-color: blue;
+    border-radius: 6px;
+}
+
+INPUT[type="text"] {
+    color: #ffe;
+    font-size: 17px;
+    line-height: 4px;
+}
+
+input::placeholder {
+    color: white;    
+  }
+
+.btn_send {
+    margin: 0px 25px;
+}
+
+.textarea {
+    width: 57%;
+    border: solid 2px black;
+    border-radius: 5px;
+    height: 600px;
+}
+
+button {
+    cursor: pointer;
+    width: 150px;
+    border: none;
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+button:hover {
+	transition: all 0.2s;
+	box-shadow: 0 8px 20px rgba(12, 4, 4, 0.1), 0 3px 6px rgba(10, 22, 18, 0.08);
+}
+
+input:hover {
+	transition: all 0.2s;
+	box-shadow: 0 8px 20px rgba(3, 1, 1, 0.1), 0 3px 6px rgba(10, 22, 18, 0.08);
+}
+
+.chat {
+    border: solid 1px rgb(32, 104, 70);
+    border-radius: 4px;
+    width: 200px;
+    height: 40px;
+    margin: 10px 5px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
